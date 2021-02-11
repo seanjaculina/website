@@ -27,7 +27,8 @@ p {
   font-size: 1rem;
 }
 .links,
-.fab {
+.fab,
+.far {
   font-size: 3rem;
   color: rgba(192, 11, 11, 0.781);
 }
@@ -121,7 +122,21 @@ p {
   display: flex;
   justify-content: space-evenly;
 }
+.interest {
+  font-size: 2rem;
+}
+.tech-imgcontainer {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 8rem;
+}
 
+.tech-imgcontainer img {
+  height: 160px;
+  width: 160px;
+}
 .container2 {
   height: 100%;
   width: 100vw;
