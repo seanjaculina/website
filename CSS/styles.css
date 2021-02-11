@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: monospace;
+  background-color: rgb(243, 237, 237);
+}
+
+h1 {
+  font-size: 5rem;
+  line-height: 2;
+  color: #df2121;
+  margin: 0 auto;
+  font-family: 'Pacifico', cursive;
+}
+.section-titles {
+  color: #df2121;
+  font-size: 4.5em;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  margin-top: 0;
+  font-family: 'Signika', sans-serif;
+  font-size: 1rem;
+}
+.links,
+.fab {
+  font-size: 3rem;
+  color: rgba(192, 11, 11, 0.781);
+}
+.sjpic {
+  border-radius: 50%;
+  margin-top: 100px;
+  width: 200px;
+  height: 200px;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  padding-top: 100px;
+}
+
+.container:nth-child(even) {
+  background-color: rgba(192, 11, 11, 0.164);
+}
+.project-container {
+  width: 80%;
+  height: 40%;
+  align-items: center;
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  margin: 0 auto;
+  display: flex;
+
+  /* flex-wrap: wrap; */
+}
+.personalproj {
+  width: 400px;
+  height: 260px;
+}
+.project-container-info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: left;
+  position: relative;
+  margin-left: 3rem;
+}
+
+.project-container-info h3 {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+.project-container-info p {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+.project-container-info .proj-images .html {
+  font-size: 2rem;
+  color: rgb(232, 98, 41);
+}
+.project-container-info .proj-images .css {
+  font-size: 2rem;
+  color: rgb(38, 77, 228);
+}
+.project-container-info .website-repo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.project-container-info .website-repo .github {
+  font-size: 1.3rem;
+}
+.contactme {
+  margin: 10px;
+}
+.my {
+  text-decoration: underline;
+}
+
+.cloud {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+.cloud2 {
+  position: absolute;
+  left: 200px;
+}
+
+.links {
+  width: 100%;
+  height: 3rem;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container2 {
+  height: 100%;
+  width: 100vw;
+}
+
+.name {
+  margin-bottom: 10px;
+}
+
+.comment {
+  margin-top: 0;
+}
+.proj-images {
+  width: 200px;
+}
+
+.proj-images .html5 {
+  width: 100%;
+  height: auto;
+}
+.fifth-container {
+  position: relative;
+  right: 200px;
+  font-size: 1px;
+}
