@@ -1,164 +1,120 @@
-body {
+*{
   margin: 0;
-  text-align: center;
-  font-family: monospace;
-  background-color: rgb(243, 237, 237);
+  padding: 0;
+  font-family: 'Pacifico';
 }
 
-h1 {
+body{
+  width: 100%;
+  height: 100%;
+}
+h2{
+  margin: 3rem 0;
+  font-size: 3rem;
+}
+section{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+
+}
+
+section:nth-child(even){
+  background-color: #EEEE;
+}
+
+.section1{
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.section1 h1{
   font-size: 5rem;
-  line-height: 2;
-  color: #df2121;
-  margin: 0 auto;
-  font-family: 'Pacifico', cursive;
-}
-.section-titles {
-  color: #df2121;
-  font-size: 4.5em;
+  color: red;
 }
 
-h3 {
+.section .links{
+  width: 100%;
+  height: 4rem;
+  display: flex;
+
+}
+
+.section1 .links i{
+  font-size: 3rem !important;
+  margin: 0 2rem;
+  color: black;
+}
+
+
+
+.section2{
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.section2 .project-container{
+  width: 80%;
+  height: 400px;
+  background-color: #ffff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.section2 .project-container .img{
+  width: 400px;
+  height: 300px;
+
+}
+.section2, .section3 p{
+  font-family: 'Arial';
+  font-size: 1rem;
+}
+
+.section2 a{
+  color: black;
+}
+
+.section3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.section3 .about-me{
+  height: 6rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+  width: 80%;
+}
+.section3 p{
+  margin-bottom: 3rem;
+  padding-left: 3rem;
   font-size: 1.5rem;
 }
-
-p {
-  margin-top: 0;
-  font-family: 'Signika', sans-serif;
-  font-size: 1rem;
-}
-.links,
-.fab,
-.far {
-  font-size: 3rem;
-  color: rgba(192, 11, 11, 0.781);
-}
-.sjpic {
+.section3 img{
   border-radius: 50%;
-  margin-top: 100px;
   width: 200px;
   height: 200px;
+  margin-bottom: 3rem;
 }
-.container {
-  height: 100vh;
+.section3 .tech-imgcontainer{
   width: 100%;
-  position: relative;
-  padding-top: 100px;
-}
-
-.container:nth-child(even) {
-  background-color: rgba(192, 11, 11, 0.164);
-}
-.project-container {
-  width: 80%;
-  height: 40%;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
   align-items: center;
-  background-color: white;
-  border: none;
-  border-radius: 3px;
-  margin: 0 auto;
-  display: flex;
 
-  /* flex-wrap: wrap; */
-}
-.personalproj {
-  width: 400px;
-  height: 260px;
-}
-.project-container-info {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  text-align: left;
-  position: relative;
-  margin-left: 3rem;
 }
 
-.project-container-info h3 {
-  font-size: 2rem;
-  padding-bottom: 2rem;
-}
-.project-container-info p {
-  font-size: 1rem;
-  line-height: 1rem;
-}
-
-.project-container-info .proj-images .html {
-  font-size: 2rem;
-  color: rgb(232, 98, 41);
-}
-.project-container-info .proj-images .css {
-  font-size: 2rem;
-  color: rgb(38, 77, 228);
-}
-.project-container-info .website-repo {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-.project-container-info .website-repo .github {
-  font-size: 1.3rem;
-}
-.contactme {
-  margin: 10px;
-}
-.my {
-  text-decoration: underline;
-}
-
-.cloud {
-  position: absolute;
-  right: 200px;
-  top: 50px;
-}
-.cloud2 {
-  position: absolute;
-  left: 200px;
-}
-
-.links {
-  width: 100%;
-  height: 3rem;
-  margin-top: 100px;
-  display: flex;
-  justify-content: space-evenly;
-}
-.interest {
-  font-size: 2rem;
-}
-.tech-imgcontainer {
-  width: 100%;
-  min-height: 200px;
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 8rem;
-}
-
-.tech-imgcontainer img {
-  height: 160px;
-  width: 160px;
-}
-.container2 {
-  height: 100%;
-  width: 100vw;
-}
-
-.name {
-  margin-bottom: 10px;
-}
-
-.comment {
-  margin-top: 0;
-}
-.proj-images {
-  width: 200px;
-}
-
-.proj-images .html5 {
-  width: 100%;
-  height: auto;
-}
-.fifth-container {
-  position: relative;
-  right: 200px;
-  font-size: 1px;
+.section3 .tech-imgcontainer img{
+  width: 240px;
+  height: 200px;
+  border-radius: 0;
 }
