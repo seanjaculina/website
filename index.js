@@ -2,7 +2,8 @@
 //const max_projects = 2;
 const srcArray = [
     {src: "images/personalproj.png", title: "Personal Project", explanation: "Personal website which contains information about myself as well as personal links to linkedin and github", href: "https://github.com/seanjaculina/website"},
-    {src: "images/DiceGame.png", title: "Dice Game", explanation: "personal project that allowed me practice with event listeners and building a website from scratch", href: "https://seansdice.netlify.app/"} ]
+    {src: "images/DiceGame.png", title: "Dice Game", explanation: "personal project that allowed me practice with event listeners and building a website from scratch", href: "https://seansdice.netlify.app/"},
+    {src: "images/weather.png", title: "Weather App", explanation: "personal project of weather app using API", href: "https://seansweather.netlify.app/"} ]
 const section2 = document.querySelector(".section2");
 
 for(let i = 0; i < srcArray.length; i++){
